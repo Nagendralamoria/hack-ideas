@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "title": "Smart City Solutions",
+    "description": "Develop an integrated platform for smart cities to optimize public services, energy consumption, and traffic management. This solution aims to enhance urban living by leveraging IoT devices, data analytics, and smart infrastructure.",
+    "tags": ["IoT", "Smart City", "Urban Planning", "Data Analytics"],
+    "upvotes": 120,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 2,
+    "title": "Health Monitoring Wearables",
+    "description": "Create advanced wearable devices equipped with sensors to monitor health metrics in real-time. These wearables will provide users with personalized insights, promoting proactive health management.",
+    "tags": ["Wearables", "Health Tech", "IoT", "Data Analysis"],
+    "upvotes": 95,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 3,
+    "title": "Virtual Reality Learning Environment",
+    "description": "Build a comprehensive virtual reality platform for immersive and interactive learning experiences. This platform will cater to various subjects and industries, revolutionizing the way education is delivered.",
+    "tags": ["VR", "Education", "Technology", "Immersive Learning"],
+    "upvotes": 80,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 4,
+    "title": "Blockchain for Supply Chain Transparency",
+    "description": "Implement a robust blockchain solution to enhance transparency and traceability in supply chains. This will reduce fraud, ensure ethical sourcing, and promote trust among stakeholders.",
+    "tags": ["Blockchain", "Supply Chain", "Transparency", "Ethereum"],
+    "upvotes": 110,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 5,
+    "title": "Green Energy Innovation",
+    "description": "Propose innovative solutions for harnessing green energy sources, such as solar, wind, or hydropower. Addressing environmental challenges, this initiative aims to promote sustainability and reduce carbon footprint.",
+    "tags": ["Renewable Energy", "Innovation", "Environment", "Sustainability"],
+    "upvotes": 85,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 6,
+    "title": "AI-Powered Personalized Shopping",
+    "description": "Develop an AI-driven system that deeply analyzes user preferences to provide hyper-personalized product recommendations. This will revolutionize the online shopping experience, increasing user satisfaction and engagement.",
+    "tags": ["AI", "E-commerce", "Personalization", "Machine Learning"],
+    "upvotes": 150,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity Threat Detection",
+    "description": "Create an advanced cybersecurity solution that employs machine learning to detect and mitigate emerging threats. This ensures the protection of sensitive data and critical systems from cyber attacks.",
+    "tags": [
+      "Cybersecurity",
+      "Threat Detection",
+      "Security",
+      "Machine Learning"
+    ],
+    "upvotes": 125,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 8,
+    "title": "Augmented Reality for Cultural Exploration",
+    "description": "Build an engaging augmented reality app that allows users to explore and learn about historical and cultural landmarks interactively. This immersive experience aims to make learning about history more captivating and accessible.",
+    "tags": ["AR", "Cultural Exploration", "History", "Mobile App"],
+    "upvotes": 90,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 9,
+    "title": "Community-driven Social Impact Platform",
+    "description": "Develop a collaborative platform empowering communities to work together on social impact projects. This platform aims to address local issues, promote positive change, and foster a sense of community engagement.",
+    "tags": ["Social Impact", "Community", "Collaboration", "Crowdsourcing"],
+    "upvotes": 105,
+    "postedDate": "2024-02-01"
+  },
+  {
+    "id": 10,
+    "title": "AI-Based Mental Health Support",
+    "description": "Create an AI-driven mental health support system offering personalized resources and assistance to individuals dealing with mental health challenges. This initiative aims to make mental health support more accessible and tailored to individual needs.",
+    "tags": ["AI", "Mental Health", "Wellness", "Machine Learning"],
+    "upvotes": 135,
+    "postedDate": "2024-02-01"
+  }
+]
