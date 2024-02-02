@@ -62,7 +62,7 @@ function SubmitIdea() {
    
     
   return (
-      <div className="p-8 bg-gray-100  flex justify-center items-center flex-col">
+      <div className="p-4 md:p-8 bg-gray-100  flex justify-center items-center flex-col">
           <h2 className="m-4 text-xl font-bold">{ message}</h2>
           <form onSubmit={handleSubmit} className="flex flex-col gap-8 w-full md:w-9/12 lg:w-2/3 justify-center items-center bg-white p-8">
                   <CustomInput type={'text'} name={'title'} placeholder={'Title'} onchange={handleInputChange} value={title} />
@@ -70,7 +70,7 @@ function SubmitIdea() {
               
               <div className="flex w-full gap-4 items-end justify-center flex-col md:flex-row">
                   <CustomInput type={'text'} name={'tags'} placeholder={'Tags'} onchange={e =>{setAddingTags(e.target.value) }} value={addingTags} />
-                <button className="bg-blue-600  w-1/3 h-1/2  text-white font-bold py-2 px-4 rounded-full" onClick={addTags}>Add Tag</button>
+                <button className="bg-blue-600  w-2/3 md:w-1/3 h-1/2  text-white font-bold py-2 px-4 rounded-full" onClick={addTags}>Add Tag</button>
               </div>
               <div className="flex flex-wrap gap-2">
               {allTags?.map((tag) => {
@@ -78,7 +78,7 @@ function SubmitIdea() {
                 
               })}
                      </div>
-                <button type="submit" className="bg-blue-600  w-1/3 text-white font-bold py-2 px-4 rounded-full">Submit</button>
+                <button type="submit" className="bg-blue-600  w-2/3 md:w-1/3 text-white font-bold py-2 px-4 rounded-full">Submit</button>
           </form>
     </div>
   )

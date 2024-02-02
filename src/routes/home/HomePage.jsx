@@ -33,7 +33,7 @@ function HomePage() {
  
  
   return (
-    <div className="p-8 bg-gray-100 flex flex-col gap-8">
+    <div className="p-4 md:p-8 bg-gray-100 flex flex-col gap-8">
       <div className="flex justify-evenly items-center bg-white rounded-lg p-4 gap-4">
         <h2 className="text-xl text-indigo-600 font-bold w-full">Filters</h2>
         <div className="w-full">
