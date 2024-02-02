@@ -5,7 +5,7 @@
     "description": "Develop an integrated platform for smart cities to optimize public services, energy consumption, and traffic management. This solution aims to enhance urban living by leveraging IoT devices, data analytics, and smart infrastructure.",
     "tags": ["IoT", "Smart City", "Urban Planning", "Data Analytics"],
     "upvotes": 120,
-    "postedDate": "2024-02-01"
+    "postedDate": "2024-04-01"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Create advanced wearable devices equipped with sensors to monitor health metrics in real-time. These wearables will provide users with personalized insights, promoting proactive health management.",
     "tags": ["Wearables", "Health Tech", "IoT", "Data Analysis"],
     "upvotes": 95,
-    "postedDate": "2024-02-01"
+    "postedDate": "2024-05-02"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "description": "Implement a robust blockchain solution to enhance transparency and traceability in supply chains. This will reduce fraud, ensure ethical sourcing, and promote trust among stakeholders.",
     "tags": ["Blockchain", "Supply Chain", "Transparency", "Ethereum"],
     "upvotes": 110,
-    "postedDate": "2024-02-01"
+    "postedDate": "2024-10-02"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "description": "Propose innovative solutions for harnessing green energy sources, such as solar, wind, or hydropower. Addressing environmental challenges, this initiative aims to promote sustainability and reduce carbon footprint.",
     "tags": ["Renewable Energy", "Innovation", "Environment", "Sustainability"],
     "upvotes": 85,
-    "postedDate": "2024-02-01"
+    "postedDate": "2024-12-05"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "description": "Develop an AI-driven system that deeply analyzes user preferences to provide hyper-personalized product recommendations. This will revolutionize the online shopping experience, increasing user satisfaction and engagement.",
     "tags": ["AI", "E-commerce", "Personalization", "Machine Learning"],
     "upvotes": 150,
-    "postedDate": "2024-02-01"
+    "postedDate": "2023-02-01"
   },
   {
     "id": 7,
@@ -58,7 +58,7 @@
       "Machine Learning"
     ],
     "upvotes": 125,
-    "postedDate": "2024-02-01"
+    "postedDate": "2022-02-01"
   },
   {
     "id": 8,
@@ -66,7 +66,7 @@
     "description": "Build an engaging augmented reality app that allows users to explore and learn about historical and cultural landmarks interactively. This immersive experience aims to make learning about history more captivating and accessible.",
     "tags": ["AR", "Cultural Exploration", "History", "Mobile App"],
     "upvotes": 90,
-    "postedDate": "2024-02-01"
+    "postedDate": "2025-02-01"
   },
   {
     "id": 9,
@@ -82,6 +82,6 @@
     "description": "Create an AI-driven mental health support system offering personalized resources and assistance to individuals dealing with mental health challenges. This initiative aims to make mental health support more accessible and tailored to individual needs.",
     "tags": ["AI", "Mental Health", "Wellness", "Machine Learning"],
     "upvotes": 135,
-    "postedDate": "2024-02-01"
+    "postedDate": "2024-02-11"
   }
 ]

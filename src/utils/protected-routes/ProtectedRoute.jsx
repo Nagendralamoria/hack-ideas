@@ -1,14 +1,26 @@
 
-import { Outlet} from "react-router-dom"
+import {  Outlet, useNavigate} from "react-router-dom"
 import Navbar from "../../components/navbar/Navbar"
-function ProtectedRoute() {
+import { IdeasProvider } from "../../context/IdeasData.context"
+import { useEffect} from "react"
+function ProtectedRoute({isLoggedIn}) {
+  let userEmail = isLoggedIn;
+  const navigate = useNavigate();
+  
+  useEffect(() => {
+    if (!userEmail) {
+      navigate('/sign-in');
+    }
+  }, [userEmail, navigate]);
 
-  return (
-      <div>
-          <Navbar />
-          <Outlet/>
-    </div>
-  )
+  return userEmail ? (
+    <div>
+      <Navbar />
+      <IdeasProvider>
+        <Outlet />
+      </IdeasProvider>
+    </div>) : null; 
+  
 }
 
 export default ProtectedRoute
