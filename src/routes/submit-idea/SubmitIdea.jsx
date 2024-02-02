@@ -19,13 +19,25 @@ function SubmitIdea() {
     const { ideasData,getIdeasData } = useContext(IdeasContext)
     const [addingTags, setAddingTags] = useState();
     const [allTags, setAllTags] = useState([]);
-
+    const [message, setMessage] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        getIdeasData(formData);
-        setFormData(initialData);
-        setAllTags([]);
-    }
+        const trimmedTitle = formData.title.trim();
+        const trimmedDescription = formData.description.trim();
+
+        if (trimmedTitle === '' || trimmedDescription === '') {
+            setMessage('Title and description are required!');
+            return;
+        }
+        try {
+            getIdeasData(formData);
+            setFormData(initialData);
+            setAllTags([]);
+            setMessage("Successfully submitted")
+        } catch (error) {
+            setMessage("An error occurred while submitting the form. Please try again.")
+        }
+        }
     const addTags = (e) => {
         e.preventDefault();
 
@@ -50,7 +62,8 @@ function SubmitIdea() {
    
     
   return (
-      <div className="p-8 bg-gray-100  flex justify-center">
+      <div className="p-8 bg-gray-100  flex justify-center items-center flex-col">
+          <h2 className="m-4 text-xl font-bold">{ message}</h2>
           <form onSubmit={handleSubmit} className="flex flex-col gap-8 w-full md:w-9/12 lg:w-2/3 justify-center items-center bg-white p-8">
                   <CustomInput type={'text'} name={'title'} placeholder={'Title'} onchange={handleInputChange} value={title} />
               <CustomInput type={'text'} name={'description'} placeholder={'Discription'} onchange={handleInputChange} value={description} />
